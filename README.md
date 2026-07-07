@@ -1,31 +1,25 @@
 # Power BI Corporate Reporting System
-
 ## Description
-A comprehensive, interactive corporate reporting system developed during a 60-day data analytics internship project. This project transforms raw transaction data into a multi-page functional dashboard, focusing on robust data modeling, complex DAX calculations, and actionable business intelligence visualizations.
-
+A comprehensive, interactive corporate reporting system designed to transform raw transaction data into a multi-page, functional business intelligence dashboard. This project focuses on robust data modeling, complex DAX calculations, and actionable visualizations to provide deep insights into corporate health, sales trends, and performance metrics.
 ## Key Features
-*   **Data Modeling & ETL:** Connected multiple data sources using a star schema. Performed data cleaning and transformation using Jupyter Notebooks and Power BI to resolve mismatched keys and handle blank data points.
-*   **Advanced Navigation:** Implemented contextual drill-through pathways for deeper data exploration (e.g., right-click navigation), alongside global reset buttons utilizing bookmarks and the selection pane.
-*   **Row-Level Security (RLS):** Configured role-based security filters within the data model to ensure users only access data relevant to their authorized regions.
-*   **Business Performance Visuals:** Utilized combo charts for target-vs-actual tracking, deep-dive matrices for quarterly breakdowns, and gauge visuals for goal achievement monitoring.
-*   **Mobile Optimized:** Designed an interactive mobile view to provide on-the-go access to key metrics.
-
-## Dashboard Overview
-The reporting system is structured across three primary views:
-
-1.  **Executive Summary:** A high-level corporate snapshot displaying essential health metrics (total revenue, profit margins, orders) segmented by major regions and product categories for rapid executive evaluation.
-2.  **Sales Analysis:** A detailed time-based performance view tracking monthly revenue trends and distribution channels, complemented by a top-10 product leaderboard and a quarterly performance matrix.
-3.  **Performance Tracker:** Focused on target accountability, this page compares actual revenue directly against sales goals using gauge and combo charts, supported by salesperson leaderboard tracking and role-based security.
-
+*   **Data Modeling & ETL:** Utilizes a star schema architecture to connect multiple data sources. The Extract, Transform, and Load (ETL) process involves rigorous data cleaning to resolve mismatched keys and eliminate blank data points, ensuring a highly accurate backend model.
+*   **Advanced Navigation:** Features contextual drill-through pathways for intuitive data exploration (e.g., right-click navigation between pages), supported by global reset buttons built using bookmarks and the selection pane.
+*   **Row-Level Security (RLS):** Implements role-based security filters within the data model, restricting information access by region to ensure enterprise-level data governance.
+*   **Business Performance Visuals:** Employs advanced tracking tools including combo charts for target-versus-actual comparisons, deep-dive matrices for quarterly performance breakdowns, and gauge visuals for monitoring goal achievements.
+*   **Mobile Optimized:** Includes a dedicated, interactive mobile layout for seamless on-the-go dashboard access.
+## Dashboards' Overview
+The reporting system is structured across three primary views/pages:
+1.  **Executive Summary:** Provides a high-level corporate snapshot of essential health metrics like total revenue, profit margins, and orders, broken down by main regions and product categories for quick executive evaluation.
+2.  **Sales Analysis:** Offers a deep-dive look at time-based performance, tracking monthly revenue trends and distribution channels alongside a top-10 product leaderboard and a detailed quarterly matrix.
+3.  **Performance Tracker:** Focuses on target accountability by using gauge and combo charts to compare actual revenue directly against sales goals, supported by role-based security filters and salesperson leaderboard tracking.
 ## Repository Structure
-*   `data/`: Contains the raw and processed datasets used for the project.
-*   `notebooks/`: Jupyter Notebooks used for initial data exploration, cleaning, and the ETL process.
-*   `power bi/`: Contains the core `.pbix` (Power BI Desktop) file encompassing the data model, DAX measures, and report layouts.
+*   `data/`: Contains the raw and processed datasets used to power the dashboard.
+*   `notebooks/`: Jupyter Notebooks documenting the initial data exploration, cleaning, and ETL processes.
+*   `power bi/`: Contains the core `.pbix` (Power BI Desktop) file encompassing the full data model, DAX measures, and interactive report layouts.
 *   `reports/`: Exported reports, final dashboard screenshots, and related documentation.
-
 ## Technology Stack
-*   **Business Intelligence:** Power BI (Data Modeling, DAX, RLS, Bookmarks)
+*   **Business Intelligence & Visualization:** Power BI (Data Modeling, DAX, RLS, Bookmarks)
 *   **Data Processing:** Python, Jupyter Notebooks
-
-## Key Learnings
-This project provided hands-on experience in tackling complex backend data schema challenges, systematically resolving database errors, and writing advanced DAX logic. It reinforced the importance of building a solid technical foundation in data analytics and treating data visualization as an exercise in logical problem-solving rather than just creating appealing charts.
+## For Aspiring Data Analysts
+This repository serves as a practical reference for building an end-to-end corporate reporting solution. By exploring the provided `.pbix` file and datasets, you can see exactly how raw transactional data is transformed into a functional star schema, and how complex DAX formulas are written to solve real business logic. 
+If you are looking to build your skills, I highly encourage you to download the raw files from the `data/` folder and attempt to build your own version of this dashboard from scratch. Tackling the data modeling and DAX challenges yourself is an incredible way to practice real-world problem-solving!

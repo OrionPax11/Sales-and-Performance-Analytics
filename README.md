@@ -1,4 +1,4 @@
-# Power BI Corporate Reporting System
+# Sales and Performance Analytics Dashboards
 ## Description
 A comprehensive, interactive corporate reporting system designed to transform raw transaction data into a multi-page, functional business intelligence dashboard. This project focuses on robust data modeling, complex DAX calculations, and actionable visualizations to provide deep insights into corporate health, sales trends, and performance metrics.
 ## Key Features
